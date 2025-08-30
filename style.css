@@ -181,6 +181,32 @@ nav {
     box-sizing: content-box;
 }
 
+.tech-cards-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 80%;
+    border: 1px solid red;
+}
+
+.tech-card {
+    background-color: #f4f4f4;
+    padding: 28px;
+    border-radius: 12px;
+    text-align: start;
+    height: 100%;
+}
+
+.tech-card img {
+    width: 50px;
+    height: auto;
+}
+
+.tech-card h5,
+.tech-card p {
+    margin-top: 6px;
+}
+
 
 
 
@@ -247,6 +273,11 @@ nav {
         border-radius: 14px;
     }
 
+    .tech-cards-div {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+        max-width: 90%;
+    }
 
 }
 
@@ -313,13 +344,11 @@ nav {
         border-radius: 16px;
     }
 
-    
-
-
-
-
-
-
+    .tech-cards-div {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+        max-width: 100%;
+    }
 
 
 }
