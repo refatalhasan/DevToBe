@@ -208,6 +208,54 @@ nav {
 }
 
 
+.my-next-cards-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: red 1px solid;
+    width: 80%;
+    gap: 30px;
+}
+
+.my-next-cards {
+    border: rgb(234, 0, 255) 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(247, 247, 247);
+    border-radius: 20px;
+}
+
+.my-next-cards>img {
+    border: rgb(30, 255, 0) 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 80px;
+}
+
+.my-next-cards>div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: start;
+    gap: 10px;
+    width: 80%;
+    border: rgb(0, 0, 0) 1px solid;
+    padding: 30px;
+}
+
+.my-next-cards>div>p {
+    width: 100%;
+}
+
+
+
+
+
 
 
 
@@ -278,6 +326,25 @@ nav {
         gap: 18px;
         max-width: 90%;
     }
+
+    .my-next-cards-main {
+        width: 80%;
+    }
+
+    .my-next-cards {
+        flex-direction: column;
+    }
+
+    .my-next-cards>img {
+        width: 80%;
+
+    }
+
+    .my-next-cards>div {
+        width: 90%;
+        padding: 20px;
+    }
+
 
 }
 
@@ -350,5 +417,20 @@ nav {
         max-width: 100%;
     }
 
+    .my-next-cards>img {
+        width: 100%;
+    }
+
+    .my-next-cards>div {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .my-next-cards>div>h6  {
+        font-size: 1rem;
+    }
+    .my-next-cards>div>p  {
+        font-size: 0.8rem;
+    }
 
 }
