@@ -21,7 +21,7 @@ html body {
     justify-content: center;
     align-items: center;
     padding: 60px 0px;
-    border: 1px solid red;
+
 }
 
 .child-container {
@@ -31,7 +31,6 @@ html body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(0, 17, 168);
     text-align: center;
     gap: 20px;
 }
@@ -186,7 +185,6 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     max-width: 80%;
-    border: 1px solid red;
 }
 
 .tech-card {
@@ -246,12 +244,74 @@ nav {
     width: 100%;
 }
 
+#input-sec-bottom {
+    background-image: url(assets/handshake.jpg);
+    padding: 60px 40px;
+    border-radius: 12px;
+}
 
+#input-sec-bottom>h3,
+#input-sec-bottom>p {
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgb(37, 37, 37);
+}
 
+#input-sec-bottom>div {
+    height: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
 
+#input-sec-bottom>div>input {
+    height: 100%;
+    width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Azeret Mono", monospace;
+}
 
+#input-sec-bottom>div>button {
+    height: 100%;
+    width: 20%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    font-size: 0.8rem;
+    font-family: "Azeret Mono", monospace;
+}
 
+#input-sec-bottom>div>button:hover {
+    cursor: pointer;
+}
 
+footer {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: rgb(209, 209, 209);
+}
+
+footer>div {
+    display: flex;
+    gap: 10px;
+}
+
+footer>div>img {
+    cursor: pointer;
+}
 
 
 @media (max-width: 1024px) {
@@ -333,7 +393,28 @@ nav {
         padding: 10px;
     }
 
+    #input-sec-bottom>div {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 60px;
+    }
 
+    #input-sec-bottom>div>input {
+        width: 80%;
+    }
+
+    #input-sec-bottom>div>button {
+        width: 80%;
+    }
+
+    footer {
+        justify-content: space-evenly;
+        padding: 30px 0px;
+    }
+
+    footer>div {
+        gap: 8px;
+    }
 
 }
 
@@ -420,5 +501,26 @@ nav {
         padding: 10px 20px;
     }
 
+    #input-sec-bottom>div {
+        margin-top: 50px;
+    }
+
+    #input-sec-bottom>div>input {
+        width: 100%;
+    }
+
+    #input-sec-bottom>div>button {
+        width: 100%;
+    }
+
+    footer {
+        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    footer>div {
+        gap: 8px;
+    }
 
 }
