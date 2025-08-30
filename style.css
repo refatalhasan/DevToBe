@@ -239,6 +239,14 @@ nav {
         width: 90%;
     }
 
+    #iframe-div iframe {
+        top: 5px;
+        left: 5px;
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+        border-radius: 14px;
+    }
+
 
 }
 
@@ -297,6 +305,15 @@ nav {
         width: 100%;
     }
 
+    #iframe-div iframe {
+        top: 3px;
+        left: 3px;
+        width: calc(100% - 6px);
+        height: calc(100% - 6px);
+        border-radius: 16px;
+    }
+
+    
 
 
 
