@@ -44,28 +44,28 @@ html body {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    border: 1px solid rgb(39, 196, 0);
+    padding: 20px 0px;
     text-align: center;
 }
 
 .heading-style {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 900;
     line-height: 1;
     color: rgb(60, 60, 60);
 }
 
 .paragraph-style {
-    font-size: 0.9rem;
-    font-weight: 600;
-    line-height: 1;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.1;
     color: rgb(90, 90, 90);
     width: 80%;
 }
 
 .button-style {
     padding: 10px 20px;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 700;
     color: rgb(30, 30, 30);
     background-color: rgba(255, 255, 255, 0);
@@ -96,6 +96,64 @@ nav {
     height: 90vh;
 }
 
+#three-card-sec {
+    background-color: rgb(230, 230, 230);
+    padding: 50px;
+    border-radius: 22px;
+}
+
+.cards {
+    background: RGB(230, 230, 230);
+    background: linear-gradient(90deg, rgba(235, 235, 235, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+    background-color: wheat;
+    border-radius: 14px;
+    padding: 30px;
+}
+
+#middle-card {
+    background: RGB(230, 230, 230);
+    background: linear-gradient(280deg, rgba(235, 235, 235, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.text-sec-of-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: start;
+    gap: 5px;
+    width: 64%;
+    padding-left: 20px;
+}
+
+.text-sec-of-cards> p {
+    width: 100%;
+}
+
+.text-sec-of-cards>button {
+    border: 1px solid black;
+    border-radius: 0px;
+    padding: 5px;
+}
+
+.img-sec-of-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 36%;
+}
+
+.img-sec-of-cards>img {
+    width: auto;
+    height: 200px;
+}
+
 
 @media (max-width: 1024px) {
     .main-container {
@@ -111,15 +169,14 @@ nav {
         gap: 10px;
     }
 
-
     .heading-style {
-        font-size: 1.4rem;
+        font-size: 1rem;
         font-weight: 800;
         line-height: 1;
     }
 
     .paragraph-style {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         font-weight: 500;
         line-height: 1.1;
         width: 90%;
@@ -127,9 +184,26 @@ nav {
 
     .button-style {
         padding: 8px 18px;
-        font-size: 1.2rem;
+        font-size: 0.9rem;
         font-weight: 700;
     }
+
+    #three-card-sec {
+        padding: 20px;
+    }
+
+    .text-sec-of-cards {
+        width: 55%;
+    }
+
+    .img-sec-of-cards {
+        width: 45%;
+    }
+
+    .img-sec-of-cards>img {
+        height: 180px;
+    }
+
 
 }
 
@@ -139,17 +213,55 @@ nav {
     }
 
     .heading-style {
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
 
     .paragraph-style {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         width: 100%;
     }
 
     .button-style {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
+
+    nav {
+        height: fit-content;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #hero {
+        height: 90vh;
+    }
+
+    #three-card-sec {
+        padding: 20px;
+    }
+
+    .cards {
+        flex-direction: column;
+        width: 100%;
+        padding: 30px;
+        gap: 10px;
+    }
+
+    .text-sec-of-cards {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .img-sec-of-cards {
+        width: 100%;
+    }
+
+
+
+
+
 
 
 }
