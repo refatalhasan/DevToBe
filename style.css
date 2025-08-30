@@ -131,7 +131,7 @@ nav {
     padding-left: 20px;
 }
 
-.text-sec-of-cards> p {
+.text-sec-of-cards>p {
     width: 100%;
 }
 
@@ -153,6 +153,37 @@ nav {
     width: auto;
     height: 200px;
 }
+
+#iframe-div {
+    padding: 0px;
+    border: 2px solid rgb(54, 54, 54);
+    border-radius: 20px;
+    width: 75%;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#iframe-div::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+}
+
+#iframe-div iframe {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    border-radius: 10px;
+    border: none;
+    box-sizing: content-box;
+}
+
+
+
+
 
 
 @media (max-width: 1024px) {
@@ -202,6 +233,10 @@ nav {
 
     .img-sec-of-cards>img {
         height: 180px;
+    }
+
+    #iframe-div {
+        width: 90%;
     }
 
 
@@ -257,6 +292,12 @@ nav {
     .img-sec-of-cards {
         width: 100%;
     }
+
+    #iframe-div {
+        width: 100%;
+    }
+
+
 
 
 
