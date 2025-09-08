@@ -7,6 +7,14 @@ A simple responsive website built to showcase my fundamental skills in **HTML** 
 - CSS3  
 - Responsive Design (Media Queries, Flexbox, Grid)
 
-## 🔗 Links
-- **Repository:** [DevToBe GitHub Repo](https://github.com/refatalhasan/DevToBe)  
-- **Live Demo:** [DevToBe Live Site](https://refatalhasan.github.io/DevToBe/)
+## 🌐 Live
+[Click here to see live website](https://refatalhasan.github.io/DevToBe/)
+
+## 🔗 Clone this repo
+
+```
+git clone https://github.com/refatalhasan/DevToBe.git
+```
+
+
+
