@@ -15,5 +15,9 @@ A simple responsive website built to showcase my fundamental skills in **HTML** 
 git clone https://github.com/refatalhasan/DevToBe.git
 ```
 
+![Desktop Preview](assets/desktop-preview.png)
+![Tablet Preview](assets/tablet-preview.png)
+![Mobile Preview](assets/mobile-preview.png)
+
 
 
